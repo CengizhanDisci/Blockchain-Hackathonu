@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <title>Blokchain Project</title>
+    <link rel="stylesheet" href="../stylesheets/login.css">
+    <script type="text/javascprit">
+        var xhr = new XMLHttpRequest();
+        var url = "/predict";
+        xhr.open("POST", url, true);
+        xhr.setRequestHeader("Content-Type", "application/json");
+    
+        var data = JSON.stringify(users);
+        xhr.send(data);
+    
+        xhr.onreadystatechange = function () {
+        console.log(xhr.status);
+        if (xhr.readyState === 4 && xhr.status === 200) {
+            var json = JSON.parse(xhr.responseText);
+            console.log(JSON.stringify(json));
+            document.getElementById("Prediction").innerHTML = JSON.stringify(json);
+        }
+    }
+    </script>
+</head>
+
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">BlockChain</h2>
+            </div>
+            <div class="search">
+                <input class="srch" type="search" placeholder="Type To text">
+                <a href="#"><button class="btn">Search</button></a>
+            </div>
+        </div>
+        <div class="from">
+            <h2>Login Here</h2>
+            <form action="/loginAuthentication" method="post">
+                <input type="text" name="userName" placeholder="UserName" required>
+                <input type="password" name="userPassword" placeholder="password" required>
+                <button type="submit" class="btnlogin">Log in</button>
+            </form>
+        </div>
+        <div class="bilgi">
+            <h1>Neden Biz ??</h1>
+            <p> Sistemimiz blockChain yöntemiyle korunmaktadır.<br>
+                Blockchain'de veriler tek bir noktada depolanmaz.
+                kayıtların dağıtık ve şifrelenmiş olması, sistemin güvenli olmasını sağlar.<br>
+                Buradaki en önemli konu bu şifreleme için kullanılan anahtarların güvenliğidir.
+                Bu nedenle hem verilerimiz hem de bakiyelerimizin güvenliği için anahtar yönetimi çok kritiktir. <br>
+                <span>Paranız bize emanettir !!!</span>
+            </p>
+            <button onclick="location.href='/register'" class="btnlogsingup">Sign Up</button>
+        </div>
+
+    </div>
+</body>
+
+</html>

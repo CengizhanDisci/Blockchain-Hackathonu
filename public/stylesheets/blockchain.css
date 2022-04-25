@@ -1,0 +1,65 @@
+body {
+    box-sizing: border-box;
+    font-family: Lato, Arial;
+    text-align: center;
+    color: white;
+    background-color: #595959;
+}
+
+h2 {
+    background: #1d1d1d;
+    padding: 15px;
+    text-align: center;
+    font-size: 30px;
+    color: orange;
+}
+
+
+input {
+
+    width: 80%;
+    height: 10px;
+    margin-top: 1.0em;
+    padding: 8px;
+}
+
+.menu {
+    background-color: #1d1d1d;
+    overflow: hidden;
+}
+
+/* menü içindeki linklerin özellikleri */
+.menu a {
+    float: right;
+    display: block;
+    color: orange;
+    text-align: center;
+    padding: 17px 30px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* linklerin üzerlerine gelindiğindeki halleri */
+.menu a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+#loginButton {
+    display: block;
+    width: 30%;
+    height: 30px;
+    margin-top: 1.5em;
+    border-radius: 1px;
+    background-color: orange;
+
+}
+
+.box {
+    background: grey;
+    max-width: 70%;
+    padding: 10px;
+    height: 250px;
+    margin: 9%;
+}
+

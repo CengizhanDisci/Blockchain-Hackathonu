@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background-image: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(../pictures/pict2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    width: 1450px;
+    height: 75px;
+    margin: auto;
+    float: left;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color:orange;
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    float:left;
+    margin-top:10px;
+    padding-top: 10px;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height:70px;
+}
+ul{
+    float:left;
+    display: flex;/* elemamların kolayca yerleştirilmesi için kullanılır*/
+    justify-content: center; /* objelerin başta mı ortada mı sondamı aralıklı mı dizileceğine karar verir */
+    align-items: center; /justif-content in yatayda yaptığı işlemleri bu dikeyde yapar/
+    
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top:27px;
+    font-size:14px;
+}
+ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out; /kaç saniyede uygulanacağı/
+}
+ul li a:hover{
+    color:orange;
+}
+.search{
+    width: 430px;
+    float:right;
+    margin-top:27px;
+    margin-left: 270px;
+    
+}
+.btn{
+    width:100px;
+    height: 40px;
+    background-color: orange;
+    border: 1px solid orange;
+    margin-top:13px;
+    font-size: 15px;
+    border-left: none;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius:15px ;
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width:280px;
+    height: 40px;
+    background:transparent;
+    border:1px solid orange;
+    margin-top:13px;
+    color:#fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding:10px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius:15px ;
+    
+
+}
+
+.srch:focus{
+    outline:none;
+}
+.srch:hover{
+    width:310px;
+}
+.btn:focus{
+    outline:none;
+   
+}
+.btn:hover{
+    
+    width: 110px;
+    background-color:gray ;
+    transition: 1s;
+
+}
+.from{
+    width:16%;
+    height:300px;
+    background:linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
+    float: right;
+    position: relative;
+    top:15%;
+    right:13%;
+    border-radius: 10px;
+    padding: 25px;  
+    box-shadow: 4px 3px 10px 4px green;
+}
+.from h2{
+    width: 70%;
+    font-family:Arial;
+    text-align: center;    
+    color:#fff;
+    font-size: 22px;
+    border:1px solid orange;
+    border-radius: 20px;
+    margin:auto;
+    margin-left:50px;
+    margin-top: 38px;
+    padding:8px;
+   
+}
+.from input{
+    height: 35px;
+    width: 100%;
+   
+    background:transparent;
+    border:1px solid orange;
+    border-radius: 10px;   
+    color:#fff;
+    
+    margin-top: 20px;
+    text-align: center;
+    
+
+}
+.btnlogin{
+    width: 50%;
+    height: 10%;
+    margin-top:10px;
+    background-color: orange;
+    border-radius: 10px;
+    position: relative;
+    top:5%;
+    float: right;
+    right:30%;  
+}
+/* .btnlogin a{
+    text-decoration: none;
+    color:black;
+    font-weight: bolder;
+    font-size: 15px;
+    
+} */
+.from input:focus{
+    outline: none;
+}
+.btnlogin:focus{
+    outline: none;
+}
+.btnlogin:hover{
+    width: 65%;
+    position: relative;
+    float: left;
+    left: 20%;
+    box-shadow: 4px 2px 10px 2px green;    
+    
+}
+.from input:hover{
+    box-shadow: 4px 2px 10px 2px green;
+}
+.bilgi{
+    height: 40%;
+    width: 60%;
+    position: relative;
+    top:25%;
+}
+.bilgi p{
+    color:#fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 150px;
+    line-height: 25px;
+    position: relative;
+    left: 3%;
+
+}
+.bilgi p span{
+    color:orange;
+    font-size: 18px;
+}
+.bilgi h1{
+    color:orange;
+    font-size: 50px;
+    font-family: Arial;
+    font-weight: 30px;
+    position: relative;
+    left: 3%;
+}
+.btnlogsingup{
+    width: 15%;
+    height: 15%;
+    margin-left: 3%;
+    margin-top:1%;
+    background-color: orange;
+    border-radius: 10px;
+}
+.btnlogsingup a{
+    text-decoration: none;
+    color:black;
+    font-weight: bolder;
+    font-size: 15px;
+
+}
+.btnlogsingup:hover{
+    outline: none;
+    box-shadow: 4px 2px 10px 2px green;
+    width: 18%;
+    box-shadow: 4px 2px 10px 2px green; 
+        
+
+}

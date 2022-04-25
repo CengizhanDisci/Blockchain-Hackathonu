@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    padding:0;
+}
+.main{
+    width: 100%;
+    background-image: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(resimler/resim2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    
+}
+.register{
+    background-image: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%);
+    border: 2px solid bro;
+    width:30%;
+    height:50%;
+    position: relative;
+    left:30%;
+    top:10%;
+    text-align: center;    
+    box-shadow: 4px 3px 10px 4px green;
+    border-radius: 10px;
+    padding: 1% 2% 1%;
+}
+ .main h1{
+    color:rgb(220, 161, 52);
+    width:15%;
+    height: 6%;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    
+    left:34%;
+    top:6%;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px; 
+}
+.register input{
+    width: 85%;
+    height: 9%;
+    margin-bottom: 15px;
+    border: 1px solid orange;
+    background-color: black;
+    color:gray;
+    text-align: center;
+    border-radius: 10px;
+}
+.register input:focus{
+    outline: none;
+    box-shadow: 2px 2px 10px 3px green;
+    width: 81%;
+}
+.register textarea{
+    border: 1px solid orange;
+    width: 86%;
+    height: 20%;
+    background-color: black;
+    border-radius: 10px;
+    text-align: center;
+    color:gray;
+    margin-bottom: 10px;
+}
+.register textarea:focus{
+    outline: none;
+    box-shadow: 2px 2px 10px 3px green;
+    width: 81%;
+}
+.btnReg{
+    border: 1px solid orange;
+    width:30%;
+    height: 8%;
+    margin-top:10px;
+    background-color:orange;
+    border-radius: 10px;
+    
+}
+.btnReg a{
+
+    text-decoration: none;
+    color:black;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.btnReg:hover{
+    outline: none;
+    width: 90px;
+    box-shadow: 4px 2px 10px 2px green;  
+}

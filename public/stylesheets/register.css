@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(resimler/resim2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.register {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%);
+    border: 1px solid brown;
+    width: 25%;
+    height: 35%;
+    position: relative;
+    left: 35%;
+    top: 10%;
+    text-align: center;
+    box-shadow: 4px 3px 10px 4px green;
+    border-radius: 10px;
+}
+
+h1 {
+    border: 1px solid orange;
+    background-color: black;
+    color: rgb(182, 131, 37);
+    width: 70%;
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-bottom: 8%;
+    border-radius: 30px;
+    font-size: 30px;
+    font-family: Arial;
+    box-shadow: 2px 2px 10px 3px green;
+}
+
+.register input {
+    margin-bottom: 15px;
+    border: 1px solid orange;
+    background-color: black;
+    color: gray;
+    text-align: center;
+    border-radius: 10px;
+    width: 80%;
+    height: 40px;
+}
+
+/* .register button{
+    width: 50%;
+   height: 50px;
+} */
+.register input:focus {
+    outline: none;
+    box-shadow: 2px 2px 10px 3px green;
+    width: 81%;
+}
+
+.register textarea {
+    border: 1px solid orange;
+    width: 79%;
+    height: 20%;
+    background-color: black;
+    border-radius: 10px;
+    text-align: center;
+    color: gray;
+}
+
+.register textarea:focus {
+    outline: none;
+    box-shadow: 2px 2px 10px 3px green;
+    width: 81%;
+}
+
+.btnReg {
+    border: 1px solid orange;
+    width: 30%;
+    height: 40px;
+    margin-top: 10px;
+    background-color: orange;
+    border-radius: 10px;
+
+}
+.register input[type=submit]{
+    border: 1px solid orange;
+    width: 30%;
+    height: 40px;
+    margin-top: 10px;
+    background-color: orange;
+    border-radius: 10px;
+}
+.btnReg:hover {
+    outline: none;
+    width: 45%;
+    box-shadow: 4px 2px 10px 2px green;
+}

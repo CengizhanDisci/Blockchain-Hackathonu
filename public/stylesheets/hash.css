@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background: #34495e;;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    width: 1450px;
+    height: 75px;
+    margin: auto;
+    float: left;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+    
+}
+.logo{
+    color:orange;
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    float:left;
+    margin-top:10px;
+    padding-top: 10px;
+}
+/* .menu{
+    width: 20px;
+    float: left;
+    height:70px;
+    border:2px solid brown;
+    display: flex;
+
+} */
+ul{
+    float:left;
+    display: flex;/* elemamların kolayca yerleştirilmesi için kullanılır*/
+    justify-content: center; /* objelerin başta mı ortada mı sondamı aralıklı mı dizileceğine karar verir */
+    align-items: center; /*justif-content in yatayda yaptığı işlemleri bu dikeyde yapar*/
+    /* border:2px solid brown; */
+    position: relative;
+    left:100px;
+    top:15px;
+
+    
+    
+}
+ul li{
+    list-style: none;
+    margin-left: 40px;
+    margin-top:27px;
+    margin-right: 35px;
+    font-size:14px;
+    position: relative;
+    bottom:13px;
+    right: 25px;
+}
+ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out; /*kaç saniyede uygulanacağı*/
+}
+ul li a:hover{
+    color:orange;
+}
+.search{
+    width: 430px;
+    margin-top:10px;
+    float:right;
+    
+}
+.btn{
+    width:100px;
+    height: 40px;
+    background-color: orange;
+    border: 1px solid orange;
+    margin-top:13px;
+    color:black;
+    font-size: 15px;
+    border-left: none;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius:15px ;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width:280px;
+    height: 40px;
+    background:transparent;
+    border:1px solid orange;
+    margin-top:13px;
+    color:#fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding:10px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius:15px ;
+    
+
+}
+
+.srch:focus{
+    outline:none;
+}
+.srch:hover{
+    width:310px;
+}
+.btn:focus{
+    outline:none;
+   
+}
+.btn:hover{
+    
+    width: 110px;
+    background-color:gray ;
+    transition: 1s;
+
+}

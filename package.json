@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "msnodesqlv8": "^2.4.4",
+    "mssql": "^7.3.0",
+    "node-rsa": "^1.1.1",
+    "python": "^0.0.4",
+    "python-shell": "^3.0.1",
+    "re": "^0.1.4",
+    "request-promise": "^4.2.6",
+    "requests": "^0.3.0",
+    "soap": "^0.43.0",
+    "utf8": "^3.0.0"
+  },
+  "name": "hackathon",
+  "version": "1.0.0",
+  "main": "dbConfig.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
